@@ -1,4 +1,4 @@
-# Syed Omer Shah Resume Template
+# Omer Resume Template
 
 A clean, one-page, two-column resume template built for **XeLaTeX** (Overleaf-friendly).  
 This project is a **derivative work** based on **Deedy-Resume** and **Deedy-Resume-Reversed**.
