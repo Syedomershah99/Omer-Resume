@@ -18,9 +18,7 @@ This project is a **derivative work** based on **Deedy-Resume** and **Deedy-Resu
 ---
 
 ## Preview
-Add a preview image or compiled PDF link here.
-
-- `resume.pdf` (compiled output)
+[![Resume PDF](https://img.shields.io/badge/Resume-PDF-blue)](./syed_omer_shah_resume_template.pdf)
 
 ---
 
