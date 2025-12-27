@@ -21,7 +21,7 @@ This project is a **derivative work** based on **Deedy-Resume** and **Deedy-Resu
 
 ## Preview
 
-[![Resume Preview](./assets/resume-preview.png)](./syed_omer_shah_resume_template.pdf)
+[![Resume Preview](./resume.png)](./syed_omer_shah_resume_template.pdf)
 
 **PDF:** [syed_omer_shah_resume_template.pdf](./syed_omer_shah_resume_template.pdf)
 
