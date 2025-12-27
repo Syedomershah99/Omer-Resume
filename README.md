@@ -19,12 +19,15 @@ This project is a **derivative work** based on **Deedy-Resume** and **Deedy-Resu
 
 ## Preview
 
-## Preview
+<p align="center">
+  <a href="./syed_omer_shah_resume_template.pdf">
+    <img src="./resume.png" width="520"/>
+  </a>
+</p>
 
-[![Resume Preview](./resume.png)](./syed_omer_shah_resume_template.pdf)
-
-**PDF:** [syed_omer_shah_resume_template.pdf](./syed_omer_shah_resume_template.pdf)
-
+<p align="center">
+  <a href="./syed_omer_shah_resume_template.pdf"><b>Open PDF</b></a>
+</p>
 ---
 
 ## Getting Started
