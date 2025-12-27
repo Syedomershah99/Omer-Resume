@@ -19,17 +19,11 @@ This project is a **derivative work** based on **Deedy-Resume** and **Deedy-Resu
 
 ## Preview
 
-[![Resume PDF](https://img.shields.io/badge/Resume-PDF-blue)](./syed_omer_shah_resume_template.pdf)
-[![View on GitHub](https://img.shields.io/badge/View-GitHub-black)](./syed_omer_shah_resume_template.pdf)
+## Preview
 
-- **PDF:** [syed_omer_shah_resume_template.pdf](./syed_omer_shah_resume_template.pdf)
+[![Resume Preview](./assets/resume-preview.png)](./syed_omer_shah_resume_template.pdf)
 
-<details>
-  <summary>Preview (GitHub renders first page)</summary>
-
-  <embed src="./syed_omer_shah_resume_template.pdf" type="application/pdf" width="100%" height="600px" />
-
-</details>
+**PDF:** [syed_omer_shah_resume_template.pdf](./syed_omer_shah_resume_template.pdf)
 
 ---
 
