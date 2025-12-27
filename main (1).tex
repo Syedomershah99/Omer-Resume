@@ -1,0 +1,173 @@
+% Syed Omer Shah Resume 
+% --------------------------------------------------------------------
+% Derivative work based on Deedy-Resume and Deedy-Resume-Reversed.
+% Licensed under Apache 2.0. See LICENSE and NOTICE in this project.
+% Compiler: XeLaTeX
+% --------------------------------------------------------------------
+
+\documentclass[]{syed-omer-shah-resume}
+
+\usepackage{enumitem}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{lmodern}
+\else
+  \usepackage{fontspec}
+\fi
+% Optional helper for bullet-separated skills
+\newcommand{\skill}[1]{\mbox{\textbullet\ #1}\hspace{0.6em}}
+\usepackage[hidelinks]{hyperref}
+
+
+
+\begin{document}
+
+\namesection{Syed Omer Shah}{ %\urlstyle{same}\href{http://example.com}{example.com}| \href{http://example2.co}{example2.co}\\
+\href{mailto:syedomer@buffalo.edu}{syedomer@buffalo.edu} | \href{tel:(716)-290-9800}{(716)-290-9800} | \href{https://linkedin.com/in/syed-omer-shah}{linkedin.com/syed-omer-shah} | \href{https://github.com/Syedomershah99}{github.com/Syedomershah99}
+}
+
+\vspace{7pt}
+\begin{minipage}[t]{0.60\textwidth}
+
+
+\section{Experience}
+
+\runsubsection{DeepLearning.ai}
+\descript{| \ Mentor, GenAI \& LLMs }
+\location{Jan 2025 - Present | Remote}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Achieved a resolution rate of \textbf{92\%+} while mentoring 7 cohorts and supporting \textbf{280+} learners through the forum.
+\item Open-source contributor for productionized lab workflows, reducing failure cases and improving project completion consistency.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{JK Tech}
+\descript{| \ AI Intern }
+\location{Mar 2025 - May 2025 | Remote}
+\begin{tightemize}
+\item Built an AI agent that parses resumes, ranks candidates, and auto-drafts outreach: \textbf{9.5$\times$} lower latency, \textbf{+35\%} accuracy; optimized pipeline for \textbf{800 resumes/sec}.
+\item Reduced manual ops by \textbf{~95\%} integrating CATSone \& MongoDB ETL.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{GNYAN.AI}
+\descript{| \ Software Engineer Intern}
+\location{Dec 2023 - May 2024 \ | \ Remote}
+\begin{tightemize}
+\item Quantized \textbf{4+} LLMs (Llama 3, Mistral 8×7B) with RAG + memory chaining, increasing answer relevance by \textbf{~35\%} F1 vs baseline
+\item Implemented Django/FastAPI auth servicing \textbf{10k+} req/mo. Deployed Ollama + Qdrant for \textbf{2×} faster semantic search in enterprise apps
+
+\end{tightemize}
+
+\section{Research}
+
+\runsubsection{State University of New York RF}
+\descript{| \ Research Aide}
+\location{Sep 2025 - Present \ | \ Buffalo, NY}
+{
+\begin{itemize}[leftmargin=*, itemsep=6pt, topsep=4pt, parsep=0pt]
+  \item Working with \textbf{\href{https://medicine.buffalo.edu/faculty/profile.html?ubit=rutaoyao}{Dr. Rutao Yao}} in the Department of Nuclear Medicine on \textbf{SC-SPECT}; Built high-throughput 3D reconstruction workflows on HPC \& Slurm; \textbf{30\%} faster experiment cycles.
+\end{itemize}}
+\vspace{2pt} % spacing between roles
+
+\runsubsection{R \& D Cell, MJCET}
+\descript{| \ Head Undergraduate Researcher}
+\location{Mar 2025 - Jun 2025 \ | \ Hyderabad, IN}
+{
+\begin{itemize}[leftmargin=*, itemsep=3pt, topsep=1pt, parsep=2pt]
+  \item Developed a Mars Rover Prototype employing Autonomy \& perception stack (VLM + Jetson Orin) with cloud telemetry; integrated AI pipeline for STT and TTS 
+\end{itemize}}
+
+\section{Projects}
+\runsubsection{MedGemma 270M}
+\descript{| SLM for Radiology | \href{https://huggingface.co/OmerShah/MedGemma}{\textbf{link}}}
+\begin{tightemize}
+\item Fine-tuned Gemma 3 (270M) on MIRIAD using Unsloth FastModel for faster \& lower VRAM training; includes Chat template formatting for supervised finetuning (SFT) 
+\end{tightemize}
+\sectionsep
+
+\runsubsection{MediLens}
+\descript{| Vision-Language QA | \href{https://github.com/Syedomershah99/MediLens}{\textbf{link}}}
+\begin{tightemize}
+\item Bilingual VLM trained on \textbf{1.6M+} samples; accuracy \textbf{+9\%} EN/\textbf{+20\%} AR vs. GPT-4 baseline
+\end{tightemize}  
+
+
+\section{Publications}
+\begin{enumerate}[leftmargin=*, label=\textbf{[\arabic*]}, itemsep=1pt, topsep=0pt]
+  \item \textbf{VMatter: AI-Enabled IoT Patient Monitoring \& Room Automation}. 
+        Oral at ICMLDSSIA-2025; to appear in Springer Nature \emph{Information Systems Engineering and Management}.
+  \item \textbf{Declining ICU Mortality of COVID-19: A Multi-Center Study}. 
+        \emph{Journal of Clinical Medicine Research}, Mar 2021.
+\end{enumerate}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.33\textwidth}
+
+\section{Education}
+\runsubsection{State University of New York at Buffalo}\\[-2pt]
+\descript{M.S. in Artificial Intelligence}
+\location{Expected Jun 2027 | Buffalo, NY}
+
+
+\section{Skills}
+
+\subsection{Programming}
+\skill{Python} \skill{C++} \skill{Java} \skill{Next.js} \skill{JavaScript/TypeScript} \skill{Linux} \skill{Git}
+
+\subsection{AI/ML \& Frameworks}
+\skill{PyTorch} \skill{TensorFlow} \skill{NumPy} \skill{Pandas} \skill{SciPy} \skill{scikit-learn}
+\skill{Transformers} \skill{Diffusion Models} \skill{GRPO} \skill{PEFT} \skill{LoRA} \skill{QLoRA}
+\skill{DeepSpeed} \skill{CUDA} \skill{cuDNN} \skill{vLLM} \skill{ONNX} \skill{LangGraph} 
+
+\vspace{4pt}
+
+\subsection{Retrieval \& Ranking}
+\skill{RAG} \skill{FAISS} \skill{Qdrant} \skill{Pinecone} \skill{Chroma} \skill{Elasticsearch}
+\skill{BM25} \skill{Embeddings}  \skill{Recommenders}
+
+\vspace{4pt}
+
+\subsection{MLOps \& Reliability}
+\skill{Kubernetes} \skill{Docker} \skill{CI/CD} \skill{GitHub Actions} \skill{MLflow}
+
+
+\section{Coursework}
+\subsection{Graduate}
+Analysis of Algorithm, Machine Learning, Artificial Intelligence, Reinforcement Learning, NLP, Blockchain, Deep Learning, Data Intensive Computing
+\vspace{4pt}
+\subsection{Undergraduate}
+Python Programming, Probability Theory, Computer Architecture, Internet of Things, Neural Networks, Computer Vision and Pattern Recognition 
+\vspace{1pt}
+
+\section{Certifications}
+\vspace{6pt}
+\begin{tightemize}
+\item Oracle Cloud Infrastructure Gen AI Professional (1Z0-1127-25)
+\item AWS Certified Cloud Practitioner (CLF-C02, 2025) \\
+\end{tightemize}
+
+
+\section{Extracurricular}
+\vspace{6pt}
+\begin{tightemize}
+\item 2025: “Deliver Results” Award Winner (AWS APJC, re:Invent) \\
+\item 2025  AWS Community Builder - AI Engineering \\
+\item 2024  Lead Organizer - DataNyx'24 (First 24-hr Datathon in Telangana) \\
+\item 2024  Founder - AWS Cloud Club (2000+ member community) \\
+\end{tightemize}
+\sectionsep
+
+\end{minipage}
+\end{document}  
