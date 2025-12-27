@@ -28,7 +28,6 @@ This project is a **derivative work** based on **Deedy-Resume** and **Deedy-Resu
 <p align="center">
   <a href="./syed_omer_shah_resume_template.pdf"><b>Open PDF</b></a>
 </p>
----
 
 ## Getting Started
 
